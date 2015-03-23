@@ -1,0 +1,320 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<style>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #737373;
+    background-color: white;
+    margin: 10px 13px 10px 13px;
+}
+table {
+  margin: 10px 0 15px 0;
+  border-collapse: collapse;
+}
+td,th {
+  border: 1px solid #ddd;
+  padding: 3px 10px;
+}
+th {
+  padding: 5px 10px;
+}
+
+a {
+    color: #0069d6;
+}
+a:hover {
+    color: #0050a3;
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+p {
+    margin-bottom: 9px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #404040;
+    line-height: 36px;
+}
+h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+hr {
+    margin: 0 0 19px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+blockquote {
+    padding: 13px 13px 21px 15px;
+    margin-bottom: 18px;
+    font-family:georgia,serif;
+    font-style: italic;
+}
+blockquote:before {
+    content:"\201C";
+    font-size:40px;
+    margin-left:-10px;
+    font-family:georgia,serif;
+    color:#eee;
+}
+blockquote p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+code, pre {
+    font-family: Monaco, Andale Mono, Courier New, monospace;
+}
+code {
+    background-color: #fee9cc;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    line-height: 16px;
+    font-size: 11px;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre code {
+    background-color: #fff;
+    color:#737373;
+    font-size: 11px;
+    padding: 0;
+}
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+  -webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:10px auto;
+    }
+}
+@media print {
+  body,code,pre code,h1,h2,h3,h4,h5,h6 {
+    color: black;
+  }
+  table, pre {
+    page-break-inside: avoid;
+  }
+}
+</style>
+<link rel="stylesheet" href="css/style.css">
+<title>Lexingtonky.gov redesign</title>
+
+</head>
+<body>
+<h1>Lexingtonky.gov redesign</h1>
+
+<h2>Executive summary</h2>
+
+<p>The City of Lexington is redesigning LexingontonKY.gov with the primary goal of improving service delivery for everyone in Lexington. The city and its implementation partner, Kentucky Interactive, has completed the initial research phase aimed at understanding the current site and how it might be improved. The following is a summary of the findings from the work from early 2015.</p>
+
+<h2>Goals of the redesign</h2>
+
+<p>Lexingtonians have come to expect a great deal from LexingontonKY.gov. The same way they do business online with their bank, mobile phone provider, or clothing retailer, they expect to interact with city services online, quickly, and at the time of their choosing. The city has made strides in this regard but still many interactions require calling, printing, scanning, faxing or even standing than in line at a city office between 9am and 5pm. While many transactional services are beyond the scope of the website redesign, the push to provide transactional digital services is very much interconnected with the website.</p>
+
+<p>As the hub for interaction with the city, the site plays a crucial role in the successes or struggles of Lexington's future digital offerings. It is the first place that citizens look when they want know when their garbage is being picked up, when a public event is taking place, or what the tax requirements are for a new business. Locating this information is the first step, and often the second step is transactional: requesting a garbage pickup, buying tickets to an event, or registering a new business. The website is the main jump-off point for current and future tranactional services.</p>
+
+<h2>Lessons from the current site</h2>
+
+<p>In researching the site, the first comment from most people is that the website reflects the org chart of the government where they expect it to be organized around the services they need. The following is an interactive chart that shows the quanity of pages in each section of the site. Clicking on each section reveals the pages that exist inside of it.</p>
+
+<p id="chart"></p>
+
+<p>Navigating to information about common information like trash pickup takes three or more well educated guesses through the menus:  <code>City Government &gt; Environmental Quality &amp; Public Works &gt; Division of Waste Managment</code>. Even people we talked to with deep knowledge of the government found this structure difficult to negotiate at times.</p>
+
+<p>On the other hand, the analytics show a clear preference for thinking about the city in terms of the services it offers rather than the departments that offer them. Below is a chart showing the pages with the most traffic. (starts inside the government section?)</p>
+
+<p>[ chart ]</p>
+
+<p>More than half of visitors come to the site on a mobile device or tablet and the number grows all of the time. The current layout doesn't perform well for these users, meaning that the majority of interactions with the website are doomed from the beginning.</p>
+
+<ul>
+<li>The pattern portfolio that comes with the new site is a powerful toolkit. It makes building user interfaces for digital services easier and with a much more unified experience.</li>
+<li>The analysis for the new site gives a great deal of insight into what types of digital services that people want.</li>
+<li>The rebuild is an important opportunity to road test an iterative, user-centric design process. We will create feedback mechanisms that continually guide and improve our work.</li>
+</ul>
+
+
+<p><strong>Examples from site comments</strong></p>
+
+<p>The goal of the redesign is to build a website that is a source of pride for Lexingtonians along two main fronts. Firstly it reflects the unique character of the vibrant American city that Lexington is. Secondly, it meets the needs of Lexingtonians by quickly and painlessly facilitating their transactions with the city. In other words, the goal of the redesign is to build a modern digital service that people have come to expect.</p>
+
+<h2>Lessons from other cities</h2>
+
+<h2>How to achive a modern digital service?</h2>
+
+<h2>Next steps</h2>
+
+<p>The next phase of the project is to test theories about the various components of a site that better meets the needs of Lexingtonians.</p>
+
+<p>Metrics</p>
+
+<ul>
+<li>Lower bounce rate</li>
+<li>Fewer frustrated site searches</li>
+<li>Overall number pages</li>
+</ul>
+
+
+<p>Assumptions</p>
+
+<ul>
+<li>Giving content creators better access to user feedback will contribute to high levels of quality.</li>
+<li>The site should be organized around services rather than departments</li>
+<li></li>
+</ul>
+
+
+<h2>Opportunities for Alpha</h2>
+
+<p>The analytics for current website usage point to several service areas that bring most visitors to the site.</p>
+
+<ul>
+<li>recreation and events</li>
+<li>detention center information</li>
+<li>lexserv</li>
+<li>police information
+
+<ul>
+<li>What do they want to do?</li>
+<li>crime maps</li>
+<li>reports</li>
+</ul>
+</li>
+<li>city: what for? mix of everything</li>
+<li>trash</li>
+<li>jobs</li>
+<li>traffic</li>
+<li>fire</li>
+</ul>
+
+
+<p>To do</p>
+
+<ul>
+<li>What is lexington specific?</li>
+<li>Analysis of 311</li>
+<li>Add a button to each page of lexky: what would you like to do here</li>
+<li>Figure out what services cost and create transaction cost baseline. Get with Chris C.</li>
+<li>Create spreadsheet to back up each of the claims made below</li>
+<li>Point to other city research if necessary</li>
+<li>Ask people to do something in the current site. Observe it. Get the council aides to help.</li>
+<li>Go to the libraries and give out cookies and write a blog post about it</li>
+<li>Put up a survey at the current site? Not sure it's necessary given the bench research.</li>
+</ul>
+
+
+<p>What is the current site?</p>
+
+<ul>
+<li>What are the top 40 services?</li>
+<li>has content that tends to overwhelm users</li>
+<li>is not very action-oriented
+
+<ul>
+<li>show bench research for an ineffective page (careful not to call out a dept)</li>
+</ul>
+</li>
+<li><p>is hard to brand for each department</p></li>
+<li><p>Who uses it</p></li>
+<li>Why do they use it?</li>
+<li><p>What drives them?</p></li>
+<li><p>What are the things you can do on our current site</p>
+
+<ul>
+<li>Sign up for summer camps</li>
+<li>Get an accident report</li>
+</ul>
+</li>
+<li>What are the things people want to be able to do on our site?
+
+<ul>
+<li>Create 311 case</li>
+<li>Look for a job with the city</li>
+<li>Sign up for shelter</li>
+<li>Pay a parking ticket (?)</li>
+<li>Pay lexserv bill</li>
+<li>Find out when their trash day is</li>
+<li>Find out how to</li>
+</ul>
+</li>
+</ul>
+
+
+<p>User profiles</p>
+
+<ul>
+<li>The city employee</li>
+<li>The small business owner</li>
+<li></li>
+<li>Residents from each district
+
+<ul>
+<li>Talk with neighborhood association members from each district</li>
+<li></li>
+</ul>
+</li>
+</ul>
+
+  <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+  <script src='http://d3js.org/d3.v3.min.js'></script>
+
+  <script src="js/index.js"></script>
+
+</body>
+</html>
