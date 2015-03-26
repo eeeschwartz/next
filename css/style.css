@@ -1,4 +1,4 @@
-#chart {
+.chart {
   width: 960px;
   height: 500px;
   background: #ddd;
@@ -6,6 +6,7 @@
 
 text {
   pointer-events: none;
+  /* white-space: normal; */
 }
 
 .grandparent text {

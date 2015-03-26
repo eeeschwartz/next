@@ -1,129 +1,128 @@
 <link rel="stylesheet" href="css/style.css">
 
 
-# Lexingtonky.gov redesign
+# Lexingtonky.gov redesign: discovery report
 
 ## Executive summary
 
-The City of Lexington is redesigning LexingontonKY.gov with the primary goal of improving service delivery for everyone in Lexington. The city and its implementation partner, Kentucky Interactive, has completed the initial research phase aimed at understanding the current site and how it might be improved. The following is a summary of the findings from the work from early 2015.
+The City of Lexington is redesigning LexingontonKY.gov with the primary goal of improving service delivery to its residents and stakeholders. The team responsible for the redesign has completed the initial discovery phase aimed at understanding the current site and its associated services so that they might be improved. The following is a summary of the findings from this work performed in early 2015.
+
+## Introduction to the redesign
+
+The City has decided to redesign LexingtonKY.gov in order to address several issues with the current site that are commonly reported by residents and public servants. 
+
+* It is structured around departmental hierarchies rather than intuitive service areas.
+* It is difficult to use on mobile devices, which now account for half of traffic.
+* Rather than being focused on taking quick action, it is largely a broadcast model.
+* The content is lengthy and often out of date.
+* The content management system is difficult to use, even for experienced content creators.
+* Updating the website is largely a secondary task that increases workload for public servants rather than decreasing it.
 
 ## Goals of the redesign
- 
-Lexingtonians have come to expect a great deal from LexingontonKY.gov. The same way they do business online with their bank, mobile phone provider, or clothing retailer, they expect to interact with city services online, quickly, and at the time of their choosing. The city has made strides in this regard but still many interactions require calling, printing, scanning, faxing or even standing than in line at a city office between 9am and 5pm. While many transactional services are beyond the scope of the website redesign, the push to provide transactional digital services is very much interconnected with the website. 
 
-As the hub for interaction with the city, the site plays a crucial role in the successes or struggles of Lexington's future digital offerings. It is the first place that citizens look when they want know when their garbage is being picked up, when a public event is taking place, or what the tax requirements are for a new business. Locating this information is the first step, and often the second step is transactional: requesting a garbage pickup, buying tickets to an event, or registering a new business. The website is the main jump-off point for current and future tranactional services. 
+In short, the mission is to make it [simple, clear, and fast](https://www.gov.uk/transformation) to interact with the city online. Below are several attributes of a successful site:
 
-## Lessons from the current site
+* Works well on mobile devices.
+* Is beautiful and easy to use.
+* Has concise information that is accessible to everyone.
+* Reflects the unique character of Lexington.
+* Gives clear feedback so that content creators are able to continually improve the site.
+* Is structured around the expectations or residents.
+* Is action-oriented, to get people in and out quickly.
+* Is a key information sharing tool that decreases workload for public servants. As a result the site is naturally kept up-to-date.
 
-In researching the site, the first comment from most people is that the website reflects the org chart of the government where they expect it to be organized around the services they need. The following is an interactive chart that shows the quanity of pages in each section of the site. Clicking on each section reveals the pages that exist inside of it.
+## The role of the redesign in future digital services
 
-<p id="chart"></p>
+Lexingtonians have come to expect a great deal from LexingontonKY.gov. The same way that they do business online with their bank, mobile phone provider, or clothing retailer, they expect to interact with city services online, quickly, and at the time of their choosing. The city has made strides in this regard but still many interactions require calling, printing, scanning, faxing or standing in line between 9am and 5pm. While transactional services are generally beyond the scope of the website redesign, their futures are very much interconnected.
 
-Navigating to information about common information like trash pickup takes three or more well educated guesses through the menus:  `City Government > Environmental Quality & Public Works > Division of Waste Managment`. Even people we talked to with deep knowledge of the government found this structure difficult to negotiate at times.
+LexingtonKY.gov is the jumping off point for all present and future digital servcies. The structure of the site and information about the services will play a large role in whether residents find them, understand them, and use them successfully. The redesign also defines the experience that residents will expect when interacting with associated digital services. A successful redesign produces a set of tools for integrating future components without requiring loads of expensive design and custom interface work. For this reason, the site redesign includes a deliverable known as a pattern portfolio. It's a set of LexingtonKY.gov interface components that allow future applications to quickly adopt the look and feel of the main site.
 
-On the other hand, the analytics show a clear preference for thinking about the city in terms of the services it offers rather than the departments that offer them. Below is a chart showing the pages with the most traffic. (starts inside the government section?)
+At a higher level, a core promise of the redesign lies in building the project iteratively, in manageable pieces, guided by continual feedback from real users. This agile approach is a core practice of successful organizations and is an increasingly common way for governments to improve service at less cost to taxpayers.
 
-[ chart ]
+## Analysis from the discovery phase
 
+When talking with people, the first comment is usually that the website is hard to navigate as it is built around the organizational chart of the government rather than around services they need. The following is an interactive tool that shows the quantity of pages in each section of the site. 
 
-More than half of visitors come to the site on a mobile device or tablet and the number grows all of the time. The current layout doesn't perform well for these users, meaning that the majority of interactions with the website are doomed from the beginning.
+#### Click on a section to show pages inside of it. Hover for number of pages.
 
-* The pattern portfolio that comes with the new site is a powerful toolkit. It makes building user interfaces for digital services easier and with a much more unified experience.
-* The analysis for the new site gives a great deal of insight into what types of digital services that people want. 
-* The rebuild is an important opportunity to road test an iterative, user-centric design process. We will create feedback mechanisms that continually guide and improve our work.
+<p class="chart" id="chart"></p>
 
+Note that the largest section, by far, is City Government.
 
-**Examples from site comments**
+Navigating to information about common information like trash pickup takes several well educated guesses through the menus:  `City Government` > `Environmental Quality & Public Works` > `Division of Waste Managment`. Even people we talked to with deep knowledge of the government found this structure difficult to negotiate at times.
 
-The goal of the redesign is to build a website that is a source of pride for Lexingtonians along two main fronts. Firstly it reflects the unique character of the vibrant American city that Lexington is. Secondly, it meets the needs of Lexingtonians by quickly and painlessly facilitating their transactions with the city. In other words, the goal of the redesign is to build a modern digital service that people have come to expect.
+#### The site in rough service categories
 
-## Lessons from other cities
+The searches that bring people from Google or Bing show a different way of thinking about the site. Rather than departments, they tend think about specific services like trash pickup or park schedules:
 
-## How to achive a modern digital service?
+<p class="chart" id="chart-inverse"></p>
 
-
-
-## Next steps
-
-The next phase of the project is to test theories about the various components of a site that better meets the needs of Lexingtonians.
-
-Metrics
-
-* Lower bounce rate
-* Fewer frustrated site searches 
-* Overall number pages
+This view is created by finding keywords inside of search terms. For example, the search term `woodland arts fair lexington ky` was matched on the term `woodland` that we put in the `parks` category.
 
 
-Assumptions
+## Activities from the discovery phase
 
-* Giving content creators better access to user feedback will contribute to high levels of quality.
-* The site should be organized around services rather than departments
-* 
+The primary focus of discovery was to produce actionable analytics. It also led to a couple of quick wins along the way.
 
-## Opportunities for Alpha
-
-The analytics for current website usage point to several service areas that bring most visitors to the site.
-
-* recreation and events
-* detention center information
-* lexserv
-* police information
-	* What do they want to do?
-	* crime maps
-	* reports
-* city: what for? mix of everything
-* trash
-* jobs
-* traffic
-* fire
+* Searching within the current site was often 'down' or unavailable to users. When users were able to search, their term was not being recorded for analysis. We fixed these issues to help make the site more functional and to enable better performance insight.
+* Several content creators highlighted that it was hard to understand content performance. The analytics for their area was mixed in with every other area of the site. We solved this problem by joining multiple data sources to create separate reports for different service areas.
+* We gathered information from other cities engaged in similar work
+	* Oakland (links...)
+	* Austin
+	* Philly
+	* San Diego
 
 
-To do
+## Resign process at a glance
 
-* What is lexington specific?
-* Analysis of 311
-* Add a button to each page of lexky: what would you like to do here
-* Figure out what services cost and create transaction cost baseline. Get with Chris C.
-* Create spreadsheet to back up each of the claims made below
-* Point to other city research if necessary
-* Ask people to do something in the current site. Observe it. Get the council aides to help.
-* Go to the libraries and give out cookies and write a blog post about it
-* Put up a survey at the current site? Not sure it's necessary given the bench research.
+In order to build the site iteratively around user feedback, the project is broken into phases.
 
-What is the current site?
+### Discovery phase (near completion)
 
-* What are the top 40 services?
-* has content that tends to overwhelm users
-* is not very action-oriented
-	* show bench research for an ineffective page (careful not to call out a dept)
-* is hard to brand for each department
+* Analysis to understand the current site and ways it can likely be improved.
+* Set initial key performance indicators (KPIs) for the next phase. 
+* Define a set of activites for the next phase.
+* Form the team necessary to continue.
+* About two months long.
 
-* Who uses it
-* Why do they use it?
-* What drives them? 
+#### Initial KPIs for LexingtonKY.gov
+
+Based on our analysis, we have a few initial KPIs:
+
+* Lower the bounce rate, or number of times that people encounter a page and immediately leave it.
+* Lower the quantity of in-site searches (aside from the ones that start from the home page).
+* Lower time to complete common tasks. For example, lower the time to find a pool schedule or holiday pickup time for trash.
 
 
-* What are the things you can do on our current site
-	* Sign up for summer camps
-	* Get an accident report
-* What are the things people want to be able to do on our site?
-	* Create 311 case
-	* Look for a job with the city
-	* Sign up for shelter
-	* Pay a parking ticket (?)
-	* Pay lexserv bill
-	* Find out when their trash day is
-	* Find out how to 
+### Alpha phase (soon to begin)
 
-User profiles
+* Show temporary, experimental pages to a wide array of users to learn what makes sense to them. Pages do not necessarily need to be created in the new CMS. The experiments should use whatever is available and quick to use. 
+* Card sorting exercises to learn the service categories that are intuitive to users.
+* Focus on high-traffic portions of the site. Analysis highlights several service areas to start with:
+	* Events, parks, pools, golf
+	* Permitting for home and small business users
+	* Requesting various traffic/incident reports or learning about police jobs.
+* Test integrations with associated services.
+* Finish with a basic working system and a good understanding of how the service should operate.
+* About two months.
 
-* The city employee
-* The small business owner
-* 
-* Residents from each district
-	* Talk with neighborhood association members from each district
-	*  
-	
+
+### Beta phase
+
+* Create a publicly accessible version of the new site on the new CMS platform. A banner from the existing site invites users to give it a try and provide feedback.
+* To begin, it should be a rough draft that covers as many service areas as possible.
+* The redesign team continues iterative user research with a wide variety of users.
+* As the beta progresses, user feedback is continually collected as content is fleshed-out, rearranged, and improved.
+* The number of users should grow as the site improves.
+* City stakeholders decide when the site meets the standards to be made live.
+* About three-six months.
+
+### Live phase
+
+* The City has continual feedback mechanisms from user research and analytics.
+* The site continues to evolve based on this feedback.
+* Digital services go through a similar design process in order to integrate with the site and meet the needs of residents.
+
 
   <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
   <script src='http://d3js.org/d3.v3.min.js'></script>
