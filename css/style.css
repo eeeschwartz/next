@@ -24,11 +24,11 @@ rect.parent,
 }
 
 .grandparent rect {
-  fill: orange;
+  fill: #3787BA;
 }
 
 .grandparent:hover rect {
-  fill: #ee9700;
+  fill: #0057A8;
 }
 
 .children rect.parent,
@@ -37,10 +37,10 @@ rect.parent,
 }
 
 .children rect.parent {
-  fill: #bbb;
+  fill: #BFBFBF;
   fill-opacity: .5;
 }
 
 .children:hover rect.child {
-  fill: #bbb;
+  fill: #BFBFBF;
 }
