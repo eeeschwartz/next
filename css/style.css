@@ -15,7 +15,7 @@ text {
 
 rect {
   fill: none;
-  stroke: #fff;
+  stroke: #ccc;
 }
 
 rect.parent,

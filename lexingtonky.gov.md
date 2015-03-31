@@ -1,7 +1,7 @@
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="style.css">
 
 
-# LexingtonKY.gov redesign: discovery report
+# LexingtonKY.gov Redesign: Discovery Report
 
 ## Executive summary
 
@@ -9,7 +9,7 @@ The City of Lexington is redesigning LexingontonKY.gov with the primary goal of 
 
 ## Introduction to the redesign
 
-The City has decided to redesign LexingtonKY.gov in order to address several issues with the current site that are commonly reported by residents and public servants. 
+The City has prioritized this project in order to address several issues with the current site that are commonly reported by residents and public servants. 
 
 * It is structured around departmental hierarchies rather than intuitive service areas.
 * It is difficult to use on mobile devices, which now account for half of traffic.
@@ -43,7 +43,7 @@ At a higher level, a core promise of the redesign lies in building the project i
 
 When talking with people, the first comment is usually that the website is hard to navigate as it is built around the organizational chart of the government rather than around services they need. The following is an interactive tool that shows the quantity of pages in each section of the site. 
 
-Due to the structure of the site, the City has very limited ability to bring forward commonly requested information. As an example, finding the schedule for routine trash pickup takes several well educated guesses through the menus:  `City Government` > `Environmental Quality & Public Works` > `Division of Waste Managment`. Even people we talked to with deep knowledge of the government found this structure difficult to negotiate at times.
+Due to the structure of the site, the City has very limited ability to bring forward commonly requested information. As an example, finding the schedule for routine trash pickup takes several well educated guesses through the drop-down menus:  `City Government` > `Environmental Quality & Public Works` > `Division of Waste Managment`. Even people we talked to with deep knowledge of the government found this structure difficult to negotiate at times.
 
 Note that the large majority of the site is nested within the City Government section.
 
@@ -67,7 +67,7 @@ This view is created by finding keywords inside of search terms. For example, th
 
 The primary focus of discovery was to produce actionable analytics. It also led to a couple of quick wins along the way.
 
-* Searching within the current site was often 'down' or unavailable to users. When users were able to search, their term was not being recorded for analysis. We fixed these issues to help make the site more functional and to enable better performance insight.
+* Searching within the current site was often 'down' or unavailable to users. When users were able to search, what they searched _for_ was not being recorded for analysis. We fixed these issues to help make the site more functional and to enable better performance insight.
 * Several content creators highlighted that it was hard to understand content performance. The analytics for their area was mixed in with every other area of the site. We solved this problem by joining multiple data sources to create separate reports for different service areas.
 * We gathered information from other cities engaged in similar work [include links...]
  	* Austin
@@ -78,11 +78,11 @@ The primary focus of discovery was to produce actionable analytics. It also led 
 
 ## Resign process at a glance
 
-In order to build the site iteratively the project is broken into phases, each centered around presenting work to relevant users to collect feedback.
+In order to build the site iteratively the project is broken into phases. By and large, in each phase the project team presents a short cyle of work to real users so that their feedback can inform next steps.
 
 ### Discovery phase (near completion)
 
-* Analysis to understand the current site and ways it can likely be improved.
+* Perform analysis to understand the current site and ways it can likely be improved.
 * Set initial key performance indicators (KPIs) for the next phase. 
 * Define a set of activites for the next phase.
 * Form the team necessary to continue.
@@ -99,8 +99,8 @@ Based on our analysis, we have a few initial KPIs:
 
 ### Alpha phase (soon to begin)
 
-* Show temporary, experimental pages to a wide array of users to learn what makes sense to them. Pages do not necessarily need to be created in the new CMS. The experiments should use whatever is available and quick to use. 
-* Card sorting exercises to learn the service categories that are intuitive to users.
+* Show temporary, experimental pages to a wide array of users to learn what makes sense to them. Pages do not necessarily need to be created in the new CMS. The experiments should use whatever is available and quick to deploy. 
+* Perform card sorting exercises to define the service categories that are intuitive to users.
 * Focus on high-traffic portions of the site. Analysis highlights several service areas to start with:
 	* Events, parks, pools, golf
 	* Permitting for home and small business users
@@ -112,13 +112,13 @@ Based on our analysis, we have a few initial KPIs:
 
 ### Beta phase
 
-* Create a publicly accessible version of the new site on the new CMS platform. A banner from the existing site invites users to give it a try and provide feedback.
+* Create a publicly accessible version of the new site on the new CMS platform. A link from the existing site invites users to give it a try and provide feedback.
 * To begin, it should be a rough draft that covers as many service areas as possible.
 * The redesign team continues iterative user research with a wide variety of users.
 * As the beta progresses, user feedback is continually collected as content is fleshed-out, rearranged, and improved.
 * The number of users should grow as the site improves.
 * City stakeholders decide when the site meets the standards to be made live.
-* About three-six months.
+* About three to six months.
 
 ### Live phase
 
@@ -127,9 +127,8 @@ Based on our analysis, we have a few initial KPIs:
 * Digital services go through a similar design process in order to integrate with the site and meet the needs of residents.
 
 
-  <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
   <script src='http://d3js.org/d3.v3.min.js'></script>
 
-  <script src="js/index.js"></script>
+  <script src="index.js"></script>
 
 	
