@@ -1,3 +1,28 @@
+function wrap(text, width) {
+  text.each(function() {
+    var text = d3.select(this),
+        words = text.text().split(/\s+/).reverse(),
+        word,
+        line = [],
+        lineNumber = 0,
+        lineHeight = 1.1, // ems
+        y = text.attr("y"),
+        dy = parseFloat(text.attr("dy")),
+        tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
+        debugger
+    while (word = words.pop()) {
+      line.push(word);
+      tspan.text(line.join(" "));
+      if (tspan.node().getComputedTextLength() > width) {
+        line.pop();
+        tspan.text(line.join(" "));
+        line = [word];
+        tspan = text.append("tspan").attr("x", 0).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
+      }
+    }
+  });
+}
+
 function createTreemap(containerId, jsonFile) {
 
   var margin = {top: 20, right: 0, bottom: 0, left: 0},
@@ -6,7 +31,6 @@ function createTreemap(containerId, jsonFile) {
       formatNumber = d3.format(",d"),
       transitioning;
 
-  var color = d3.scale.category20c();
 
   var x = d3.scale.linear()
       .domain([0, width])
@@ -15,6 +39,8 @@ function createTreemap(containerId, jsonFile) {
   var y = d3.scale.linear()
       .domain([0, height])
       .range([0, height]);
+
+  var color = d3.scale.category20c();
 
   var treemap = d3.layout.treemap()
       .children(function(d, depth) { return depth ? null : d._children; })
@@ -110,28 +136,30 @@ function createTreemap(containerId, jsonFile) {
           .data(function(d) { return d._children || [d]; })
         .enter().append("rect")
           .attr("class", "child")
-          .style("background", function(d) { return color(d.name) })
+          .style("fill", function(d,i) { return "#fff" })
           .call(rect);
 
       g.append("rect")
           .attr("class", "parent")
-          .style("background-color", function(d) { return color(d.name) })
           .call(rect)
+          .style("fill", function(d,i) { return color(i) })
         .append("title")
-          .text(function(d) { return formatNumber(d.value); });
+          .text(function(d) { return formatNumber(d.value); })
+
+      // g.selectAll("text").call(wrap, 100);
 
       // EDS where text gets set
       g.append("text")
           .attr("dy", ".75em")
-          .text(function(d) { return d.name;
-            // debugger
-          })
+          .text(function(d) { return d.name; })
           .call(text);
 
       function transition(d) {
         if (transitioning || !d) return;
         transitioning = true;
 
+
+        // EDS d = incoming grandparent
         var g2 = display(d),
             t1 = g1.transition().duration(750),
             t2 = g2.transition().duration(750);
@@ -167,7 +195,23 @@ function createTreemap(containerId, jsonFile) {
 
     function text(text) {
       text.attr("x", function(d) { return x(d.x) + 6; })
-          .attr("y", function(d) { return y(d.y) + 6; });
+          .attr("y", function(d) { return y(d.y) + 6; })
+          .text(function(d, i) {
+            var name = d.name;
+            var rect = this.parentNode.getElementsByClassName('parent')[0]
+            var rectLength = rect.width.baseVal.value;
+            var rectHeight = rect.height.baseVal.value;
+            var charWidth = 9;
+            var charHeight = 20;
+            var possibleChars = rectLength / charWidth;
+
+            if (rectHeight < charHeight) {
+              name = "";
+            } else if (d.name.length > possibleChars) {
+              name = d.name.substring(0, possibleChars) + "...";
+            }
+            return name
+          });
     }
 
     function rect(rect) {
@@ -185,5 +229,6 @@ function createTreemap(containerId, jsonFile) {
   });
 }
 
-createTreemap('#chart', "lexky-sitemap.json");
+createTreemap('#chart', "lexky-sitemap-with-analytics.json");
+// createTreemap('#chart-inverse', "lexky-sitemap-inverted-analytics.json");
 createTreemap('#chart-inverse', "lexky-organic-searches.json");
