@@ -229,6 +229,6 @@ function createTreemap(containerId, jsonFile) {
   });
 }
 
-createTreemap('#chart', "lexky-sitemap-with-analytics.json");
+createTreemap('#chart', "lexky-sitemap.json");
 // createTreemap('#chart-inverse', "lexky-sitemap-inverted-analytics.json");
 createTreemap('#chart-inverse', "lexky-organic-searches.json");
