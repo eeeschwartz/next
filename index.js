@@ -5,7 +5,6 @@ function createTreemap(containerId, jsonFile) {
       formatNumber = d3.format(",d"),
       transitioning;
 
-
   var x = d3.scale.linear()
       .domain([0, width])
       .range([0, width]);
@@ -14,7 +13,7 @@ function createTreemap(containerId, jsonFile) {
       .domain([0, height])
       .range([0, height]);
 
-  var color = d3.scale.category20c();
+  var color = d3.scale.category20();
 
   var treemap = d3.layout.treemap()
       .children(function(d, depth) { return depth ? null : d._children; })
@@ -215,4 +214,4 @@ function createTreemap(containerId, jsonFile) {
 
 createTreemap('#chart', "lexky-sitemap.json");
 // createTreemap('#chart-inverse', "lexky-sitemap-inverted-analytics.json");
-createTreemap('#chart-inverse', "lexky-organic-searches.json");
+c
