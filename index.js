@@ -152,7 +152,8 @@ function createTreemap(containerId, jsonFile) {
       g.append("text")
           .attr("dy", ".75em")
           .text(function(d) { return d.name; })
-          .call(text);
+          .call(text)
+          .call(truncateText)
 
       function transition(d) {
         if (transitioning || !d) return;
@@ -178,10 +179,16 @@ function createTreemap(containerId, jsonFile) {
         g2.selectAll("text").style("fill-opacity", 0);
 
         // Transition to the new view.
-        t1.selectAll("text").call(text).style("fill-opacity", 0);
-        t2.selectAll("text").call(text).style("fill-opacity", 1);
         t1.selectAll("rect").call(rect);
         t2.selectAll("rect").call(rect);
+        t1.selectAll("text").call(text).style("fill-opacity", 0);
+        t2.each("end", function() {
+          g2.selectAll("text")
+            .transition()
+            .call(text)
+            .call(truncateText)
+            .style("fill-opacity", 1);
+          });
 
         // Remove the old node when the transition is finished.
         t1.remove().each("end", function() {
@@ -193,25 +200,28 @@ function createTreemap(containerId, jsonFile) {
       return g;
     }
 
+    function truncateText(text) {
+      text.text(function(d, i) {
+        var name = d.name;
+        var rect = this.parentNode.getElementsByClassName('parent')[0]
+        var rectLength = rect.width.baseVal.value;
+        var rectHeight = rect.height.baseVal.value;
+        var charWidth = 9;
+        var charHeight = 20;
+        var possibleChars = rectLength / charWidth;
+
+        if (rectHeight < charHeight) {
+          name = "";
+        } else if (d.name.length > possibleChars) {
+          name = d.name.substring(0, possibleChars) + "...";
+        }
+        return name
+      });
+    }
+
     function text(text) {
       text.attr("x", function(d) { return x(d.x) + 6; })
           .attr("y", function(d) { return y(d.y) + 6; })
-          .text(function(d, i) {
-            var name = d.name;
-            var rect = this.parentNode.getElementsByClassName('parent')[0]
-            var rectLength = rect.width.baseVal.value;
-            var rectHeight = rect.height.baseVal.value;
-            var charWidth = 9;
-            var charHeight = 20;
-            var possibleChars = rectLength / charWidth;
-
-            if (rectHeight < charHeight) {
-              name = "";
-            } else if (d.name.length > possibleChars) {
-              name = d.name.substring(0, possibleChars) + "...";
-            }
-            return name
-          });
     }
 
     function rect(rect) {
