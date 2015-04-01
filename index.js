@@ -2,6 +2,7 @@ function createTreemap(containerId, jsonFile) {
   var margin = {top: 23, right: 0, bottom: 0, left: 0},
       width = 960,
       height = 500 - margin.top - margin.bottom,
+      textOffsetLeft = 6,
       formatNumber = d3.format(",d"),
       transitioning;
 
@@ -38,8 +39,8 @@ function createTreemap(containerId, jsonFile) {
       .attr("height", margin.top);
 
   grandparent.append("text")
-      .attr("x", 6)
-      .attr("y", 6 - margin.top)
+      .attr("x", textOffsetLeft)
+      .attr("y", textOffsetLeft - margin.top)
       .attr("dy", ".75em");
 
   d3.json(jsonFile, function(root) {
@@ -183,9 +184,6 @@ function createTreemap(containerId, jsonFile) {
         var charHeight = 20;
         var possibleChars = rectLength / charWidth;
 
-        if (d.parent.name == "Internal Audit") {
-          debugger
-        }
         if (rectHeight < charHeight) {
           name = "";
         } else if (d.name.length > possibleChars) {
@@ -196,8 +194,8 @@ function createTreemap(containerId, jsonFile) {
     }
 
     function text(text) {
-      text.attr("x", function(d) { return x(d.x) + 6; })
-          .attr("y", function(d) { return y(d.y) + 6; })
+      text.attr("x", function(d) { return x(d.x) + textOffsetLeft; })
+          .attr("y", function(d) { return y(d.y) + textOffsetLeft; })
     }
 
     function rect(rect) {
@@ -216,5 +214,4 @@ function createTreemap(containerId, jsonFile) {
 }
 
 createTreemap('#chart', "lexky-sitemap.json");
-// createTreemap('#chart-inverse', "lexky-sitemap-inverted-analytics.json");
 createTreemap('#chart-inverse', "lexky-organic-searches.json");
