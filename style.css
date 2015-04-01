@@ -41,6 +41,7 @@ rect.parent,
   fill-opacity: .5;
 }
 
-.children:hover rect.child {
-  fill: #BFBFBF;
+.children:hover {
+  fill: white;
+  stroke-width: 3px;
 }

@@ -1,36 +1,9 @@
-function wrap(text, width) {
-  text.each(function() {
-    var text = d3.select(this),
-        words = text.text().split(/\s+/).reverse(),
-        word,
-        line = [],
-        lineNumber = 0,
-        lineHeight = 1.1, // ems
-        y = text.attr("y"),
-        dy = parseFloat(text.attr("dy")),
-        tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
-        debugger
-    while (word = words.pop()) {
-      line.push(word);
-      tspan.text(line.join(" "));
-      if (tspan.node().getComputedTextLength() > width) {
-        line.pop();
-        tspan.text(line.join(" "));
-        line = [word];
-        tspan = text.append("tspan").attr("x", 0).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
-      }
-    }
-  });
-}
-
 function createTreemap(containerId, jsonFile) {
-
-  var margin = {top: 20, right: 0, bottom: 0, left: 0},
+  var margin = {top: 23, right: 0, bottom: 0, left: 0},
       width = 960,
       height = 500 - margin.top - margin.bottom,
       formatNumber = d3.format(",d"),
       transitioning;
-
 
   var x = d3.scale.linear()
       .domain([0, width])
@@ -40,7 +13,7 @@ function createTreemap(containerId, jsonFile) {
       .domain([0, height])
       .range([0, height]);
 
-  var color = d3.scale.category20c();
+  var color = d3.scale.category20();
 
   var treemap = d3.layout.treemap()
       .children(function(d, depth) { return depth ? null : d._children; })
@@ -152,7 +125,8 @@ function createTreemap(containerId, jsonFile) {
       g.append("text")
           .attr("dy", ".75em")
           .text(function(d) { return d.name; })
-          .call(text);
+          .call(text)
+          .call(truncateText)
 
       function transition(d) {
         if (transitioning || !d) return;
@@ -181,7 +155,13 @@ function createTreemap(containerId, jsonFile) {
         t1.selectAll("rect").call(rect);
         t2.selectAll("rect").call(rect);
         t1.selectAll("text").call(text).style("fill-opacity", 0);
-        t2.each("end", function() { g2.selectAll("text").transition().call(text).call(truncateText).style("fill-opacity", 1); });
+        t2.each("end", function() {
+          g2.selectAll("text")
+            .transition()
+            .call(text)
+            .call(truncateText)
+            .style("fill-opacity", 1);
+          });
 
         // Remove the old node when the transition is finished.
         t1.remove().each("end", function() {
@@ -229,7 +209,7 @@ function createTreemap(containerId, jsonFile) {
 
     function name(d) {
       return d.parent
-          ? name(d.parent) + "." + d.name
+          ? name(d.parent) + " > " + d.name
           : d.name;
     }
   });

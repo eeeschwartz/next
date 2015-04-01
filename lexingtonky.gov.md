@@ -16,7 +16,7 @@ The City has prioritized this project in order to address several issues with th
 * Rather than being focused on quickly facilitating action, it is largely an information broadcast model.
 * The content is lengthy, lacks structure, and often falls out of date.
 * The content management system is difficult to use, even for experienced content creators.
-* Updating the website is largely a secondary task that increases workload for public servants rather than creating efficiencies that decrease it.
+* Updating the website is largely a secondary task that increases workload for public servants rather than creating efficiencies that make work easier.
 
 ## Goals of the redesign
 
