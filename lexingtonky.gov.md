@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.2/css/bootstrap.min.css" />
 
 
 # LexingtonKY.gov Redesign: Discovery Report
