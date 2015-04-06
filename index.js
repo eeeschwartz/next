@@ -177,19 +177,24 @@ function createTreemap(containerId, jsonFile) {
     function truncateText(text) {
       text.text(function(d, i) {
         var name = d.name;
-        var rect = this.parentNode.getElementsByClassName('parent')[0]
-        var rectLength = rect.width.baseVal.value;
-        var rectHeight = rect.height.baseVal.value;
-        var charWidth = 9;
-        var charHeight = 20;
-        var possibleChars = rectLength / charWidth;
+        var rect = $(this).parent();
+        // All IEs fails inside of jQuery when trying to call getElementsByClassName
+        try {
+          rect = rect.find('.parent')
+          rect = rect[0];
+          var rectLength = rect.width.baseVal.value;
+          var rectHeight = rect.height.baseVal.value;
+          var charWidth = 9;
+          var charHeight = 20;
+          var possibleChars = rectLength / charWidth;
 
-        if (rectHeight < charHeight) {
-          name = "";
-        } else if (d.name.length > possibleChars) {
-          name = d.name.substring(0, possibleChars) + "...";
-        }
-        return name
+          if (rectHeight < charHeight) {
+            name = "";
+          } else if (d.name.length > possibleChars) {
+            name = d.name.substring(0, possibleChars) + "...";
+          }
+        } catch (e) {}
+        return name;
       });
     }
 

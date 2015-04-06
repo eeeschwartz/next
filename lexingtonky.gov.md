@@ -6,7 +6,7 @@
 
 ## Executive summary
 
-The City of Lexington is redesigning LexingontonKY.gov with the primary goal of improving service delivery to its residents and stakeholders. The team responsible for the redesign has completed the initial discovery phase aimed at understanding the current site and its associated services so that they might be improved. The following is a summary of the findings from this work performed in early 2015.
+The City of Lexington is redesigning LexingtonKY.gov with the primary goal of improving service delivery to its residents and stakeholders. The team responsible for the redesign has completed the initial discovery phase aimed at understanding the current site and its associated services so that they might be improved. The following is a summary of the findings from this work performed in early 2015.
 
 ## Introduction to the redesign
 
@@ -52,6 +52,9 @@ Note that the large majority of the site is nested within the City Government se
 
 Click on a section to show pages inside of it. Hover for number of pages.
 
+<!--[if lt IE 9]> 
+<p style="color: darkred">You are using an older browser that is not currently supported. <a href="http://whatbrowser.org/">Upgrade your browser today</a> to fully use the site.</p>
+[endif]-->
 <p class="chart" id="chart"></p>
 
 
@@ -61,6 +64,7 @@ People that arrive at the site from Google or Bing searches comprise nearly 60% 
 
 This view is created by finding keywords inside of search terms. For example, the search term `woodland arts fair lexington ky` was matched on the term `woodland` that we put in the `parks` category.
 
+      
 <p class="chart" id="chart-inverse"></p>
 
 
@@ -101,7 +105,7 @@ Based on our analysis, we have a few initial KPIs. These may change as we gain i
 ### Alpha phase (soon to begin)
 
 * Show temporary, experimental pages to a wide array of users to learn what makes sense to them. Pages do not necessarily need to be created in the new CMS. The experiments should use whatever is available and quick to deploy. 
-* Perform card sorting exercises to define the service categories that are intuitive to users.
+* Perform [card sorting](https://en.wikipedia.org/wiki/Card_sorting) exercises to define the service categories that are intuitive to users.
 * Focus on high-traffic portions of the site. Analysis highlights several service areas to start with:
 	* Events, parks, pools, golf
 	* Permitting for home and small business users
