@@ -70,14 +70,14 @@ The primary focus of discovery was to produce actionable analytics. It also led 
 
 * Searching within the current site was often 'down' or unavailable to users. When users were able to search, what they searched _for_ was not being recorded for analysis. We fixed these issues to help make the site more functional and to enable better performance insight.
 * Several content creators highlighted that it was hard to understand content performance. The analytics for their area was mixed in with every other area of the site. We solved this problem by joining multiple data sources to create separate reports for different service areas.
-* We gathered information from other cities engaged in similar work [include links...]
- 	* Austin
-	* Oakland
-	* Philly
-	* San Diego
+* We gathered information from other cities engaged in similar work
+ 	* [Austin](http://austintexas.gov/page/phase-one-documentation)
+	* [Oakland](http://digifrodo.tumblr.com/)
+	* [Philadelphia](http://alpha.phila.gov/)
+	* [San Diego](http://www.sandiego.gov/mayor/pdf/newsreleases/2014/news140826websiteannoucement.pdf)
 
 
-## Resign process at a glance
+## Redesign process at a glance
 
 In order to build the site iteratively the project is broken into phases. By and large, in each phase the project team presents a short cyle of work to real users so that their feedback can inform next steps.
 
@@ -85,13 +85,13 @@ In order to build the site iteratively the project is broken into phases. By and
 
 * Perform analysis to understand the current site and ways it can likely be improved.
 * Set initial key performance indicators (KPIs) for the next phase. 
-* Define a set of activites for the next phase.
+* Define a set of activities for the next phase.
 * Form the team necessary to continue.
 * About two months long.
 
 ##### Initial Key Performance Idiciators (KPIs) for LexingtonKY.gov
 
-Based on our analysis, we have a few initial KPIs. These may change as we gain insight into the project but these are good starting points:
+Based on our analysis, we have a few initial KPIs. These may change as we gain insight but these are good starting points:
 
 * Lower the bounce rate, or number of times that people encounter a page and immediately leave it.
 * Lower the quantity of in-site searches (aside from the ones that start from the home page). In-site searches usually indicate that a user expected to find certain information but did not.
