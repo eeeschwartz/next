@@ -10,14 +10,14 @@ The City of Lexington is redesigning LexingontonKY.gov with the primary goal of 
 
 ## Introduction to the redesign
 
-The City has prioritized this project in order to address several issues with the current site that are commonly reported by residents and public servants. 
+The City has prioritized this project in order to address several issues with the current site that are commonly reported by residents and city employees. 
 
 * It is structured around departmental hierarchies rather than intuitive service areas.
 * It is difficult to use on mobile devices, which now account for half of traffic.
 * Rather than being focused on quickly facilitating action, it is largely an information broadcast model.
 * The content is lengthy, lacks structure, and often falls out of date.
 * The content management system is difficult to use, even for experienced content creators.
-* Updating the website is largely a secondary task that increases workload for public servants rather than creating efficiencies that make work easier.
+* Updating the website is largely a secondary task that increases workload for city employees rather than creating efficiencies that make work easier.
 
 ## Goals of the redesign
 
@@ -27,10 +27,10 @@ In short, the mission is to make it [simple, clear, and fast](https://www.gov.uk
 * Is beautiful and easy to use.
 * Has concise information that is accessible to everyone.
 * Reflects the unique character of a great city.
-* Is structured around the expectations or residents.
+* Is structured around the expectations of residents.
 * Gives content creators clear feedback so that they can continually improve the site.
 * Is action-oriented, to get people in and out quickly.
-* Is a key information sharing tool that decreases workload for public servants. As a result the site is naturally kept up-to-date.
+* Is a key information sharing tool that decreases workload for city employees. As a result the site is naturally kept up-to-date.
 
 ## The role of the redesign in future digital services
 
@@ -44,7 +44,7 @@ At a higher level, a core promise of the redesign lies in building the project i
 
 When talking with people, the first comment is usually that the website is hard to navigate as it is built around the organizational chart of the government rather than around services they need. The following is an interactive tool that shows the quantity of pages in each section of the site. 
 
-Due to the structure of the site, the City has very limited ability to bring forward commonly requested information. As an example, finding the schedule for routine trash pickup takes several well educated guesses through the drop-down menus:  `City Government` > `Environmental Quality & Public Works` > `Division of Waste Managment`. Even people we talked to with deep knowledge of the government found this structure difficult to negotiate at times.
+Due to the structure of the site, the City has very limited ability to bring forward commonly requested information. As an example, finding the schedule for routine trash pickup takes several well educated guesses through the drop-down menus:  `City Government` > `Environmental Quality & Public Works` > `Division of Waste Management`. Even people we talked to with deep knowledge of the government found this structure difficult to negotiate at times.
 
 Note that the large majority of the site is nested within the City Government section.
 
@@ -89,13 +89,13 @@ In order to build the site iteratively the project is broken into phases. By and
 * Form the team necessary to continue.
 * About two months long.
 
-##### Initial KPIs for LexingtonKY.gov
+##### Initial Key Performance Idiciators (KPIs) for LexingtonKY.gov
 
-Based on our analysis, we have a few initial KPIs:
+Based on our analysis, we have a few initial KPIs. These may change as we gain insight into the project but these are good starting points:
 
 * Lower the bounce rate, or number of times that people encounter a page and immediately leave it.
-* Lower the quantity of in-site searches (aside from the ones that start from the home page).
-* Lower time to complete common tasks. For example, lower the time to find a pool schedule or holiday pickup time for trash.
+* Lower the quantity of in-site searches (aside from the ones that start from the home page). In-site searches usually indicate that a user expected to find certain information but did not.
+* Lower the time to complete common tasks. For example, lower the time to find a pool schedule or holiday pickup time for trash.
 
 
 ### Alpha phase (soon to begin)
@@ -128,8 +128,5 @@ Based on our analysis, we have a few initial KPIs:
 * Digital services go through a similar design process in order to integrate with the site and meet the needs of residents.
 
 
-  <script src='http://d3js.org/d3.v3.min.js'></script>
-
-  <script src="index.js"></script>
-
-	
+<script src='http://d3js.org/d3.v3.min.js'></script>
+<script src="index.js"></script>
