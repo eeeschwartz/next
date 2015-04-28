@@ -1,7 +1,8 @@
 ### Discovery report
 * http://bl.ocks.org/eeeschwartz/raw/cc85050bc819e6f388df/
 
-### Write great content for the 100 pages the make up 80% of traffic (not counting the homepage)
+### Write great content for top pages
+* 100 pages make up 80% of traffic (not counting the homepage)
 * Content Audit
   * [Useful guide](http://moz.com/blog/content-audit-tutorial)
 * Resident Survey
