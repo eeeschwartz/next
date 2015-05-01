@@ -10,7 +10,7 @@ _The [discovery report](http://bl.ocks.org/eeeschwartz/raw/cc85050bc819e6f388df/
     * Use [engagement tactics](http://www.codeforamerica.org/governments/principles/engagement/) to reach these areas.
   * Run for about four weeks and improve reach in underrepresented areas along the way.
 
-### Hold weekly in-person content writing sessions
+### Hold content writing sessions each week
 
 Gather content writers from the high traffic service areas and make their pages simplier, clearer, and easier to use.
 
@@ -19,7 +19,7 @@ Gather content writers from the high traffic service areas and make their pages 
 Setting aside the homepage, the top **104 pages make up 80%** of remaining LexingtonKY.gov traffic. These pages are a great starting point.
 
 |Area|Number of pages|Percentage of non-homepage traffic|Notes|
-||||
+|----|-----|------|-----|
 |Parks|37|25%|
 |Public Safety|14|18%|
 |Environmental Quality|15|14%|
@@ -30,7 +30,7 @@ Setting aside the homepage, the top **104 pages make up 80%** of remaining Lexin
 Use **Key Performance Indicators (KPIs)** to track progress as the team works through the top pages.
 
 * Pages [should target](http://www.nngroup.com/articles/writing-for-lower-literacy-users/) reading levels between 6th and 8th grade.
-  * According to reading level calculators, the top pages currently average a 9th-10th grade reading level. Many pages are also noted as confusing or difficult.
+  * According to reading level calculators, the top pages currently average a 9th-10th grade reading level. Many pages are also noted as difficult or confusing.
 * When someone reaches a page and immediately leaves it is called a _bounce_. Bounces should trend downward.
   * The average bounce rate is currently 60%. This indicates that people are often surprised by content or don't find it useful.
 * Each page should include a quick a way for users to let the City know if anything is wrong or missing.
@@ -41,7 +41,7 @@ Use **Key Performance Indicators (KPIs)** to track progress as the team works th
 * Start with a [content dashboard](https://docs.google.com/spreadsheet/ccc?key=0Aupv-89nVqawdGdPTFZmeEUxSnIwdW9UWmFFWlVlVkE&usp=sharing#gid=14) to give writers a list of their top pages. Include KPIs so writers can see which of their pages have high bounce rates, for instance.
 * Talk about [successful writing for the web](https://www.gov.uk/guidance/content-design/writing-for-gov-uk).
  * Write collaboratively using a shared [content workbook](https://docs.google.com/document/d/1S1U-kU13cPVp07wjyxfHTtDwuww1fpi6oTi0Eo4NhvM/edit#heading=h.l6xhyokye9cc). Focus on writing for a specific user need, rather than divisive issues like site structure or visual design.
- * Use [readability tools](https://readability-score.com/) to give writiers real-time feedback.
+ * Use [readability tools](https://readability-score.com/) to give writers real-time feedback.
  * After each week's session, show the content to real users to see if it meets their expectations.
  * Add selected content to the live site, LexingtonKY.gov, to see how KPIs change.
 
