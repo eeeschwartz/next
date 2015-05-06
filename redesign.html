@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-translate-customization" content="456367bd8ce87645-0b59d2a8a6216951-g4bbed57b043561df-20"></meta>
+
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
@@ -26,21 +28,15 @@
 
   <body>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <!-- <div class="container quote"> -->
-    <!--   <p><i>“To many people in Lexington, the website is the face of city government. Let’s make it simpler, clearer and faster to use."</i> -->
-    <!--   <br>Mayor Jim Gray -->
-    <!--   </p> -->
-    <!-- </div> -->
     <div class="site-wrapper">
-
       <div class="site-wrapper-inner bg">
+        <div id="google_translate_element"></div>
         <div class="cover-container">
           <div class="inner cover">
             <h1 class="cover-heading">Help us build a better LexingtonKY.gov</h1>
             <p class="lead">The City of Lexington is rebuilding LexingtonKY.gov to better meets the needs of residents. To make this happen we want to hear from you!</p>
             <p class="lead">
-              <a href="#" class="btn btn-lg btn-default">Take the Survey</a>
+              <a href="#" id="survey-link" style="display:none" class="btn btn-lg btn-default"></a>
             </p>
           </div>
 
@@ -56,5 +52,25 @@
       </div>
 
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+      }
+      $(function() {
+        var linkText = 'Take the Survey';
+        $('#survey-link').html(linkText).show(500);
+
+        $('#survey-link').click(function(e) {
+          var text = $(e.target)[0].text
+          if (text === linkText) {
+            document.location = 'https://lexington.typeform.com/to/BofuZK';
+          } else {
+            document.location = 'https://lexington.typeform.com/to/dogssi';
+          }
+        });
+      });
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   </body>
 </html>
