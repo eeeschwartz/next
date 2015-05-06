@@ -72,12 +72,18 @@
         $('#survey-link').html(linkText).show(500);
 
         $('#survey-link').click(function(e) {
+          var language;
+          var loc;
           var text = $(e.target)[0].text
           if (text === linkText) {
-            document.location = 'https://lexington.typeform.com/to/BofuZK';
+            loc = 'https://lexington.typeform.com/to/BofuZK';
+            language = 'en'
           } else {
-            document.location = 'https://lexington.typeform.com/to/dogssi';
+            loc = 'https://lexington.typeform.com/to/dogssi';
+            language = 'es'
           }
+          ga('send', 'event', 'button', 'click', 'survey', language);
+          document.location = loc;
         });
       });
     </script>
