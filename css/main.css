@@ -1,0 +1,10 @@
+.bg {
+  background-image: url('../img/lexington.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.quote {
+  background-color: rgba(183, 165, 165, 0.38)
+}
