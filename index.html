@@ -86,9 +86,8 @@
         $('#survey-link').click(function(e) {
           var language;
           var loc;
-          var text = $(e.target)[0].text;
-          // text is undefined for IE <= 9, assume english
-          if (text === undefined || text === linkText) {
+          var text = $(e.target)[0].innerHTML;
+          if (text === linkText) {
             loc = 'https://lexington.typeform.com/to/BofuZK';
             language = 'en'
           } else {
