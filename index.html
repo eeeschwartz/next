@@ -84,17 +84,14 @@
         $('#survey-link').html(linkText).show(500);
 
         $('#survey-link').click(function(e) {
-          var language;
           var loc;
           var text = $(e.target)[0].innerHTML;
           if (text === linkText) {
             loc = 'https://lexington.typeform.com/to/BofuZK';
-            language = 'en'
           } else {
             loc = 'https://lexington.typeform.com/to/dogssi';
-            language = 'es'
           }
-          ga('send', 'event', 'button', 'click', 'survey', language);
+          ga('send', 'event', 'button', 'click', 'survey');
           document.location = loc;
         });
       });
