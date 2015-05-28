@@ -1,10 +1,11 @@
 ---
-layout: default
+layout: with-navigation
+title: Content Migration Plan
 ---
 
 # Plan for alpha phase of LexingtonKY.gov redesign
 
-_The [discovery report](http://bl.ocks.org/eeeschwartz/raw/cc85050bc819e6f388df/) lays out reasons for a redesign as well as high-level goals._
+_The [discovery report](/discovery-report) lays out reasons for a redesign as well as high-level goals._
 
 ### Perform a resident survey
   * Learn what city topics people value most and prioritize them for improvement.
