@@ -1,0 +1,6 @@
+name: Erik Schwartz
+description: "Erik Schwartz's blog, projects, and vine"
+url: http://lfucg.github.io/next
+permalink: /slug/
+exclude: [Gemfile, Gemfile.lock, Dockerfile]
+markdown: redcarpet

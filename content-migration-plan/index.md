@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Plan for alpha phase of LexingtonKY.gov redesign
 
 _The [discovery report](http://bl.ocks.org/eeeschwartz/raw/cc85050bc819e6f388df/) lays out reasons for a redesign as well as high-level goals._
