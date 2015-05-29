@@ -5,7 +5,8 @@ title: Discovery Report
 local-javascripts: ["/js/index.js"]
 remote-javascripts: ["http://d3js.org/d3.v3.min.js"]
 ---
-<h1>The next LexingtonKy.gov: discovery report</h1>
+
+# LexingtonKy.gov Discovery Phase Report
 
 <h2>Executive summary</h2>
 
@@ -96,7 +97,6 @@ remote-javascripts: ["http://d3js.org/d3.v3.min.js"]
 </li>
 </ul>
 
-
 <h2>Redesign process at a glance</h2>
 
 <p>In order to build the site iteratively the project is broken into phases. By and large, in each phase the project team presents a short cyle of work to real users so that their feedback can inform next steps.</p>
@@ -109,14 +109,15 @@ remote-javascripts: ["http://d3js.org/d3.v3.min.js"]
 * Form the team necessary to continue
 * About two months long
 
-
 <h5>Initial Key Performance Indicators (KPIs) for LexingtonKy.gov</h5>
 
 <p>Based on our analysis, we have a few initial KPIs. These may change as we gain insight but these are good starting points:</p>
 
 * Lower the bounce rate, or number of times that people encounter a page and immediately leave it
-* Lower the quantity of in-site searches (aside from the ones that start from the home page). In-site searches usually indicate that a user expected to find certain information but did not
-* Lower the time to complete common tasks. For example, lower the time to find a pool schedule or holiday pickup time for trash
+* Lower the quantity of in-site searches (aside from the ones that start from the home page)
+  * In-site searches usually indicate that a user expected to find certain information but did not
+* Lower the time to complete common tasks
+ * For example, lower the time to find a pool schedule or holiday pickup time for trash
 
 <h3>Alpha phase (Summer 2015)</h3>
 
