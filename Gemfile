@@ -10,4 +10,3 @@ gem 'jekyll'
 gem 'mini_magick'
 gem 'compass'
 gem 'redcarpet'
-
