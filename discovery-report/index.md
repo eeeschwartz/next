@@ -2,6 +2,7 @@
 layout: with-navigation
 stylesheets: ["/css/discovery.css"]
 title: Discovery Report
+javascripts: ["http://d3js.org/d3.v3.min.js", "/js/index.js"]
 ---
 <h1>LexingtonKy.gov Redesign: Discovery Report</h1>
 
@@ -140,7 +141,7 @@ title: Discovery Report
 </ul>
 
 
-<h3>Beta phase</h3>
+### Beta phase
 
 <ul>
 <li>Create a publicly accessible version of the new site on the new CMS platform. A link from the existing site invites users to give it a try and provide feedback.</li>
@@ -153,7 +154,7 @@ title: Discovery Report
 </ul>
 
 
-<h3>Live phase</h3>
+### Live phase
 
 <ul>
 <li>The City has continual feedback mechanisms from user research and analytics.</li>
@@ -161,6 +162,3 @@ title: Discovery Report
 <li>Digital services go through a similar design process in order to integrate with the site and meet the needs of residents.</li>
 </ul>
 
-<script src='http://d3js.org/d3.v3.min.js'></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="../js/index.js"></script>

@@ -4,3 +4,5 @@ url: http://lfucg.github.io/next
 permalink: /slug/
 exclude: [Gemfile, Gemfile.lock, Dockerfile, fig.yml, docker-compose.yml]
 markdown: redcarpet
+redcarpet:
+  extensions: ["with_toc_data"]
