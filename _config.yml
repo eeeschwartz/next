@@ -1,8 +1,6 @@
-name: Erik Schwartz
-description: "Erik Schwartz's blog, projects, and vine"
-url: http://lfucg.github.io/next
-permalink: /slug/
+name: The Next LexingtonKy.gov
+baseurl: /next
 exclude: [Gemfile, Gemfile.lock, Dockerfile, fig.yml, docker-compose.yml]
 markdown: redcarpet
 redcarpet:
-  extensions: ["with_toc_data"]
+  extensions: ["with_toc_data", "tables", "fenced_code_blocks"]

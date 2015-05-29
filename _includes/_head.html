@@ -11,12 +11,31 @@
   <title>The Next LexingtonKy.gov{% if page.title %}: {{ page.title }}{% endif %}</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="/css/main.css" rel="stylesheet">
+  <link href="{{ site.baseurl }}/css/main.css" rel="stylesheet">
+  <style>
+    body {
+      line-height: 1.6;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: bold;
+    }
+    /* make wide browser column smaller */
+    @media (min-width: 1200px) {
+      .container {
+        width: 970px;
+      }
+    }
+    .container {
+      border: 1px solid #D2D9DD;
+      border-radius: 3px;
+    }
+
+  </style>
   {% for sheet in page.stylesheets %}
-    <link href="{{ sheet }}" rel="stylesheet">
+    <link href="{{ site.baseurl }}{{ sheet }}" rel="stylesheet">
   {% endfor %}
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
