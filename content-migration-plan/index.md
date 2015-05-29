@@ -3,7 +3,7 @@ layout: with-navigation
 title: Content Migration Plan
 ---
 
-# Plan for alpha phase of LexingtonKy.gov redesign
+# LexingtonKy.gov alpha phase: content migration plan
 
 _The [discovery report](/next/discovery-report) lays out reasons for a redesign as well as high-level goals._
 

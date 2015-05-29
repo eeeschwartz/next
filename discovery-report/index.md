@@ -5,7 +5,7 @@ title: Discovery Report
 local-javascripts: ["/js/index.js"]
 remote-javascripts: ["http://d3js.org/d3.v3.min.js"]
 ---
-<h1>LexingtonKy.gov Redesign: Discovery Report</h1>
+<h1>The next LexingtonKy.gov: discovery report</h1>
 
 <h2>Executive summary</h2>
 
