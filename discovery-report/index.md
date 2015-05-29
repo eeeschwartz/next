@@ -2,7 +2,8 @@
 layout: with-navigation
 stylesheets: ["/css/discovery.css"]
 title: Discovery Report
-javascripts: ["http://d3js.org/d3.v3.min.js", "/js/index.js"]
+local-javascripts: ["/js/index.js"]
+remote-javascripts: ["http://d3js.org/d3.v3.min.js"]
 ---
 <h1>LexingtonKy.gov Redesign: Discovery Report</h1>
 
@@ -56,7 +57,7 @@ javascripts: ["http://d3js.org/d3.v3.min.js", "/js/index.js"]
 
 <p>Note that the large majority of the site is nested within the City Government section.</p>
 
-<h4>Organization of the current site</h4>
+<h4>Organization of the current site (clickable!) </h4>
 
 <p>Click on a section to show pages inside of it. Hover for number of pages.</p>
 
@@ -100,65 +101,50 @@ javascripts: ["http://d3js.org/d3.v3.min.js", "/js/index.js"]
 
 <p>In order to build the site iteratively the project is broken into phases. By and large, in each phase the project team presents a short cyle of work to real users so that their feedback can inform next steps.</p>
 
-<h3>Discovery phase (near completion)</h3>
+<h3>Discovery phase (Complete)</h3>
 
-<ul>
-<li>Perform analysis to understand the current site and ways it can likely be improved.</li>
-<li>Set initial key performance indicators (KPIs) for the next phase.</li>
-<li>Define a set of activities for the next phase.</li>
-<li>Form the team necessary to continue.</li>
-<li>About two months long.</li>
-</ul>
+* Perform analysis to understand the current site and ways it can likely be improved
+* Set initial key performance indicators (KPIs) for the next phase
+* Define a set of activities for the next phase
+* Form the team necessary to continue
+* About two months long
 
 
 <h5>Initial Key Performance Indicators (KPIs) for LexingtonKy.gov</h5>
 
 <p>Based on our analysis, we have a few initial KPIs. These may change as we gain insight but these are good starting points:</p>
 
-<ul>
-<li>Lower the bounce rate, or number of times that people encounter a page and immediately leave it.</li>
-<li>Lower the quantity of in-site searches (aside from the ones that start from the home page). In-site searches usually indicate that a user expected to find certain information but did not.</li>
-<li>Lower the time to complete common tasks. For example, lower the time to find a pool schedule or holiday pickup time for trash.</li>
-</ul>
+* Lower the bounce rate, or number of times that people encounter a page and immediately leave it
+* Lower the quantity of in-site searches (aside from the ones that start from the home page). In-site searches usually indicate that a user expected to find certain information but did not
+* Lower the time to complete common tasks. For example, lower the time to find a pool schedule or holiday pickup time for trash
 
+<h3>Alpha phase (Summer 2015)</h3>
 
-<h3>Alpha phase (soon to begin)</h3>
-
-<ul>
-<li>Show temporary, experimental pages to a wide array of users to learn what makes sense to them. Pages do not necessarily need to be created in the new CMS. The experiments should use whatever is available and quick to deploy.</li>
-<li>Perform <a href="https://en.wikipedia.org/wiki/Card_sorting">card sorting</a> exercises to define the service categories that are intuitive to users.</li>
-<li>Focus on high-traffic portions of the site. Analysis highlights several service areas to start with:
-
-<ul>
-<li>Events, parks, pools, golf</li>
-<li>Permitting for home and small business users</li>
-<li>Requesting various traffic/incident reports or learning about police jobs.</li>
-</ul>
-</li>
-<li>Test integrations with associated services.</li>
-<li>Finish with a basic working system and a good understanding of how the service should operate.</li>
-<li>About two months.</li>
-</ul>
-
+* Show temporary, experimental pages to a wide array of users to learn what makes sense to them
+  * Pages do not necessarily need to be created in the new CMS
+  * The experiments should use whatever is available and quick to deploy
+* Perform <a href="https://en.wikipedia.org/wiki/Card_sorting">card sorting</a> exercises to define the service categories that are intuitive to users
+* Focus on high-traffic portions of the site. Analysis highlights several service areas to start with:
+  * Events, parks, pools, golf
+  * Permitting for home and small business users
+  * Requesting various traffic/incident reports or learning about police jobs
+* Test integrations with associated service
+* Finish with a basic working system and a good understanding of how the service should operate
+* About two months
 
 ### Beta phase
 
-<ul>
-<li>Create a publicly accessible version of the new site on the new CMS platform. A link from the existing site invites users to give it a try and provide feedback.</li>
-<li>To begin, it should be a rough draft that covers as many service areas as possible.</li>
-<li>The redesign team continues iterative user research with a wide variety of users.</li>
-<li>As the beta progresses, user feedback is continually collected as content is fleshed-out, rearranged, and improved.</li>
-<li>The number of users should grow as the site improves.</li>
-<li>City stakeholders decide when the site meets the standards to be made live.</li>
-<li>About three to six months.</li>
-</ul>
-
+* Create a publicly accessible version of the new site on the new CMS platform
+  * A link from the existing site invites users to give it a try and provide feedback
+* To begin, it should be a rough draft that covers as many service areas as possible
+* The redesign team continues iterative user research with a wide variety of users
+* As the beta progresses, user feedback is continually collected as content is fleshed-out, rearranged, and improved
+* The number of users should grow as the site improves
+* City stakeholders decide when the site meets the standards to be made live
+* About three to six months
 
 ### Live phase
 
-<ul>
-<li>The City has continual feedback mechanisms from user research and analytics.</li>
-<li>The site continues to evolve based on this feedback.</li>
-<li>Digital services go through a similar design process in order to integrate with the site and meet the needs of residents.</li>
-</ul>
-
+* The City has continual feedback mechanisms from user research and analytics
+* The site continues to evolve based on this feedback
+* Digital services go through a similar design process in order to integrate with the site and meet the needs of residents

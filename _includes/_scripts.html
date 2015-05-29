@@ -1,21 +1,8 @@
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="google-translate-customization" content="456367bd8ce87645-0b59d2a8a6216951-g4bbed57b043561df-20"></meta>
-
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>The Next LexingtonKy.gov{% if page.title %}: {{ page.title }}{% endif %}</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="/css/bootstrap.min.css" rel="stylesheet">
-
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-{% for script in page.javascripts %}
+{% for script in page.remote-javascripts %}
   <script src="{{ script }}"></script>
+{% endfor %}
+{% for script in page.local-javascripts %}
+  <script src="{{ site.baseurl }}{{ script }}"></script>
 {% endfor %}
