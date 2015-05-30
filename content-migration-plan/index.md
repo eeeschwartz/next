@@ -7,21 +7,17 @@ title: Content Migration Plan
 
 _The [discovery report](/next/discovery-report) lays out reasons for a redesign as well as high-level goals._
 
-### Perform a [resident survey](/next/)
+## Perform a [resident survey](/next/)
   * Learn what city topics people value most and prioritize them for improvement
-  * Collect a response from 0.1% of residents (~300 people)
+  * Collect a response from about 300 people (~0.1% of residents)
     * Aim to represent demographics and city areas evenly
     * Use geographic analysis tools to determine underrepresented areas
     * Use [engagement tactics](http://www.codeforamerica.org/governments/principles/engagement/) to reach these areas
   * Run for about four weeks and improve reach in underrepresented areas along the way
 
-### Hold content writing sessions each week
+## Hold content writing sessions each week
 
-Gather content writers from the high traffic service areas and make their pages simplier, clearer, and easier to use.
-
-#### Focus on top pages
-
-Setting aside the homepage, the top **104 pages make up 80%** of remaining LexingtonKy.gov traffic. These pages are a great starting point.
+Gather content writers from the high traffic service areas and make their pages simplier, clearer, and easier to use. Focus on top pages. Setting aside the homepage, the top **104 pages make up 80%** of remaining LexingtonKy.gov traffic. These pages are a great starting point.
 
 <!-- html output used below so we can include bootstrap styles -->
 <!-- |Area|Number of pages|Percentage of non&#45;homepage traffic|Notes| -->
@@ -65,7 +61,7 @@ Setting aside the homepage, the top **104 pages make up 80%** of remaining Lexin
     </tr>
   </tbody></table>
 
-#### Areas for improvement
+## Areas for improvement
 
 Use **Key Performance Indicators (KPIs)** to track progress as the team works through the top pages.
 
@@ -78,7 +74,7 @@ Use **Key Performance Indicators (KPIs)** to track progress as the team works th
 * Each page should include a quick a way for users to let the City know if anything is wrong or missing
   * After reaching a baseline of feedback, the quantity of submissions should trend downward
 
-#### Use collaborative writing process
+## Use collaborative writing process
 
 * Start with a content dashboard to give writers a list of their top pages
   * Include KPIs so writers can see which of their pages have high bounce rates, for instance
@@ -89,20 +85,20 @@ Use **Key Performance Indicators (KPIs)** to track progress as the team works th
  * After each week's session, show the content to real users to see if it meets their expectations
  * Add selected content to the live site, LexingtonKy.gov, to see how KPIs change
 
-#### Develop content strategy and site structure
+## Develop content strategy and site structure
 
 * PIO oversees writing sessions to build a unified [content strategy](https://insidegovuk.blog.gov.uk/2015/03/05/thinking-big-content-strategy-principles-for-government/) across all writers
 * Use a [language style guide](https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style) to unify content across writers
 * Site structure [naturally evolves](http://alistapart.com/blog/post/content-first-design) from writing process
 
-#### Make writing sessions part of the ongoing strategy
+## Make writing sessions part of the ongoing strategy
 
 * Continue writing sessions through the beta phase to improve and prune the many remaining pages of the website
 * Once the new site is live, hold monthly or quarterly writing sessions to maintain content quality
   * Focus on areas with lots of user feedback
   * Set aside time to observe real users interacting with the website
 
-### Deliverables from alpha
+## Deliverables from alpha
 * Analysis of Lexington resident survey including:
   * How people access the internet, for example mobile, tablet, and desktop and in which settings
   * What information people want to find on LexingtonKy.gov
@@ -112,7 +108,7 @@ Use **Key Performance Indicators (KPIs)** to track progress as the team works th
 * [Content in draft form](https://docs.google.com/document/d/1S1U-kU13cPVp07wjyxfHTtDwuww1fpi6oTi0Eo4NhvM/edit#heading=h.l6xhyokye9cc) for high-traffic pages
 * Beginnings of site structure (Information Architecture)
 
-### Additional resources
+## Additional resources
 * [Content audit guide](http://moz.com/blog/content-audit-tutorial)
 * [Training writers in government](https://gds.blog.gov.uk/2014/10/23/the-move-to-gov-uk-training-1000-writers/)
 * [Content first design](http://alistapart.com/blog/post/content-first-design)
