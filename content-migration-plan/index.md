@@ -98,7 +98,8 @@ Use **Key Performance Indicators (KPIs)** to track progress as the team works th
   * Focus on areas with lots of user feedback
   * Set aside time to observe real users interacting with the website
 
-## Deliverables from alpha
+## Deliverables from alpha phase
+
 * Analysis of Lexington resident survey including:
   * How people access the internet, for example mobile, tablet, and desktop and in which settings
   * What information people want to find on LexingtonKy.gov
@@ -109,6 +110,7 @@ Use **Key Performance Indicators (KPIs)** to track progress as the team works th
 * Beginnings of site structure (Information Architecture)
 
 ## Additional resources
+
 * [Content audit guide](http://moz.com/blog/content-audit-tutorial)
 * [Training writers in government](https://gds.blog.gov.uk/2014/10/23/the-move-to-gov-uk-training-1000-writers/)
 * [Content first design](http://alistapart.com/blog/post/content-first-design)
