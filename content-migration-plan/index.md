@@ -68,11 +68,14 @@ Use **Key Performance Indicators (KPIs)** to track progress as the team works th
 * Pages [should target](http://www.nngroup.com/articles/writing-for-lower-literacy-users/) reading levels between 6th and 8th grade
   * According to reading level calculators, the top pages currently average a 9th-10th grade reading level
   * Many pages are also noted as difficult or confusing
+* Minimize in-site searches
+  * When someone visits a page but decides to use the search bar, it indicates that they did not find what they where looking for
+  * In-site searches should trend downward
+* Each page should include a quick a way for users to let the City know if anything is wrong or missing
+  * After reaching a baseline of feedback, the quantity of submissions should trend downward
 * When someone reaches a page and immediately leaves it is called a _bounce_
   * Bounces should trend downward
   * The average bounce rate is currently 60%, indicating that that people are often surprised by content or don't find it useful
-* Each page should include a quick a way for users to let the City know if anything is wrong or missing
-  * After reaching a baseline of feedback, the quantity of submissions should trend downward
 
 ## Use collaborative writing process
 
