@@ -17,7 +17,7 @@ _The [discovery report](/next/discovery-report) lays out reasons for a redesign 
 
 ## Hold content writing sessions each week
 
-Gather content writers from the high traffic service areas and make their pages simplier, clearer, and easier to use. Focus on top pages. Setting aside the homepage, the top **104 pages make up 80%** of remaining LexingtonKy.gov traffic. These pages are a great starting point.
+Gather content writers from the high traffic service areas and make their pages simpler, clearer, and easier to use. Focus on top pages. Setting aside the homepage, the top **104 pages make up 80%** of remaining LexingtonKy.gov traffic. These pages are a great starting point.
 
 <!-- html output used below so we can include bootstrap styles -->
 <!-- |Area|Number of pages|Percentage of non&#45;homepage traffic|Notes| -->
