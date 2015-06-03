@@ -41,7 +41,7 @@ layout: default
 <![endif]-->
 <script type="text/javascript">
   function googleTranslateElementInit() {
-    new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+    new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,es,fr', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
   }
   $(function() {
     var linkText = 'Take the Survey';
@@ -52,7 +52,10 @@ layout: default
       var text = $(e.target)[0].innerHTML;
       if (text === linkText) {
         loc = 'https://lexington.typeform.com/to/BofuZK';
+      } else if (text === 'Participez au sondage') {
+        loc = 'https://lexington.typeform.com/to/PgTLon';
       } else {
+        // Spanish
         loc = 'https://lexington.typeform.com/to/dogssi';
       }
       ga('send', 'event', 'button', 'click', 'survey');
