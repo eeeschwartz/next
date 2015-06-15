@@ -4,15 +4,14 @@
 
 * LexingtonKy.gov is the "digital front door" to the city: 7,000 people visit each day
 * Our work on the website really matters!
-* As opposed to browing, people come to get things done
-* Make it simple, clear, and fast to use
+* People come to get things done, rather than to browse
+* They want a site that is simple, clear, and fast to use
 
 ## Big benefits for you as well
 
-* The goal is to meet user need, rather than gov need
-* But to create good content, you need tools that make life easier!
-* Good feedback mechanisms and helpful guidance
-* Still your content but with good tools to help
+* The goal is content that meets the user need
+* To create good content, you need tools that make life easier!
+* It's still your content but with better feedback and guidance
 
 ## My role as project manager
 
@@ -35,19 +34,19 @@ I also highlight helpful research and best practices. An example:
 ## Timelines
 
 * December: smooth transition to a beautiful new lexingtonky.gov
-* September: invite users to next.lexingtonky.gov, our work-in-progress
+* September: invite users to next.lexingtonky.gov, our work-in-progress site
 
 ## Summer workshops prepare us for next.lexingtonky.gov
 
 - Map user needs
-  * User needs workshops
-  * Validate user needs
+  * Make sure we understand who uses the site and what they want to accomplish
+  * Catalog the user needs that our site should fulfill
 - Prepare for build
   * _Writing for the web_ workshops
   * Work with you to determine who will write content that delivers your user needs
   * Create a content plan
 
-## How to record user needs
+## How to define user needs
 
 A user need deep understanding of the user is vital to a successful lexingtonky.gov.
 
@@ -59,20 +58,21 @@ To define user needs, we:
 
 * Gather the evidence
 * Frame the need correctly
-* Be clear about what to include and what to exclude
+* Be clear about what content to include and what to exclude
 
-User needs are recorded as "user stories"
+## User needs are recorded as user stories
 
-Expressing a user need mustn’t imply the solution. The user need should be expressed as a user story, so the service team can discuss and explore possible solutions.
+Expressing a user need doesn't imply the solution. The user need should be expressed as a user story, so the service team can discuss and explore possible solutions.
 
 - Define the user need
 - Write the user story from the perspective of the user
-- Define the acceptance criteria
-- Solution is explored and delivered by the service team
+  * As a ____
+  * I need to ____
+  * So that ____
 
 ## What you can do now!
 
 * Review and update content
+* Record top 5 user needs for your service area(s)
 * Prune old content, old pages if they do not meet a valid user need
 * Continue to read _The Elements of Content Strategy_
-
