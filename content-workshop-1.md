@@ -18,13 +18,13 @@
 I facilitate to make sure everyone has clear goals and the support they need.
 
   * Workshops for [Google Analytics](http://lexingtonky-visitors.herokuapp.com/) and user research
-  * Help you know if content meets the user need
+  * Provide tools to show if content meets the user need
 
 I also highlight helpful research and best practices. An example:
 
   * People only read 20% of words online
   * Content should be easily scannable
-  * Using lists and short bits of text
+  * Best to use lists and short bits of text
 
 ## The current site
 
