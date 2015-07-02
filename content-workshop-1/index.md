@@ -5,6 +5,10 @@ title: Content Workshop 1
 
 # The next LexingtonKy.gov
 
+## Introduction from Aldona!
+
+We are officially fired up!
+
 ## Goal: build a website that meets the needs of its users
 
 * LexingtonKy.gov is the "digital front door" to the city: 7,000 people visit each day
@@ -84,7 +88,7 @@ To define user needs, we:
 * Gather the evidence
 * Frame the need as narrowly as possible
 * Be clear about what content to include and what to exclude
-  * Inlude information with a clear need
+  * Include information with a clear need
   * Focus on information where government is the sole authoritative source
 
 ## Things you can do now! [inspired by GOV.UK migration kick-off presentation](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/292634/GOV.UK_Transition_Workshop_17Mar14.pptx)
