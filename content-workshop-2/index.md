@@ -26,8 +26,8 @@ title: Content Workshop 2
 ## Share analytics: in-page searches broken out by start page
 
 * [Example](https://docs.google.com/spreadsheets/d/1Kt9nilIxycAp6BnQGjQPLhJSy4uKujOHk63gnWjdb4w/pubhtml) from the planning dept
-* These indicate that a unmet expectation when a user visited a page
-* What changes will you make based on the list of in-page searches?
+* These happen when the user is looking for certain information on a page but can't find it: they give up and use the search bar.
+* What changes could you make based on the list of in-page searches?
 
 ## Milestones for next week
 
