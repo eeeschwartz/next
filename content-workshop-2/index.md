@@ -23,7 +23,9 @@ title: Content Workshop 2
   * What device are they using?
 * Describe a few more personas on sticky notes
 
-## Share analytics: in-page searches broken out by start page
+## Share analytics: in-page searches
+
+These also which page the user was scanning when they gave up and used the search bar.
 
 * [Example](https://docs.google.com/spreadsheets/d/1Kt9nilIxycAp6BnQGjQPLhJSy4uKujOHk63gnWjdb4w/pubhtml) from the planning dept
 * These happen when the user is looking for certain information on a page but can't find it: they give up and use the search bar.
