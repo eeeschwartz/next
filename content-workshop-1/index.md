@@ -87,9 +87,10 @@ To define user needs, we:
   * Inlude information with a clear need
   * Focus on information where government is the sole authoritative source
 
-## What you can do now!
+## Things you can do now! [inspired by GOV.UK migration kick-off presentation](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/292634/GOV.UK_Transition_Workshop_17Mar14.pptx)
 
 * Review and update content
+* Check out the [analytics dashboard](http://lexingtonky-visitors.herokuapp.com/)
 * Record top 5 user needs for your service area(s)
 * Prune old content, old pages if they do not meet a valid user need
 * Continue to read _The Elements of Content Strategy_
