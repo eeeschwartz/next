@@ -72,15 +72,17 @@ Sub-section body [if needed]
 
 ---
 
-#### Look up a crime report online
+<div class="well">
+<h4 id="look-up-a-crime-report-online">Look up a crime report online</h4>
 
-```
-Crime reports are available online to victims. They may be used to file insurance claims and for other personal uses.
+<p>Crime reports are available online to victims. They may be used to file insurance claims and for other personal uses.</p>
 
-In order to access a crime report, you will need both:
+<p>In order to access a crime report, you will need both:</p>
 
-* a case number
-* a report date
+<ul>
+<li>a case number</li>
+<li>a report date</li>
+</ul>
 
-[Link or button] Access your crime report
-```
+<p><a href="#">Access your crime report</a></p>
+  </div>
