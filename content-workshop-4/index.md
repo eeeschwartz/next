@@ -11,9 +11,9 @@ A good way to build up a page is to fill out a [content cube template](content-c
 
 ## Milestones for July 22nd
 
-We’ve laid a good foundation, so let’s put it to work on the current site. We'll take an iterative approach, meaning that each week we create small experiments and learn from them. With time we know more and more about our users and create better experiences for them.
+We’ve laid a good foundation, so let’s put it to work on the current site. We'll take an iterative approach, meaning that each week we create small experiments and learn from them. With time we know more about our users and create better experiences for them.
 
-The first step in the process is to set an information baseline. It gives us something to measure against so that we know if our changes are improving the site.
+The first step is to set an information baseline. It gives us something to measure against so that we know if our changes are improving the site.
 
 ### Observe someone using the site
 
@@ -35,7 +35,7 @@ Review of content tips:
 * less is more
 * set user expectations right away: what information will they find when they scroll down?
 * use short sentences, short sections, simple words
-* include common terms that people scan for (helpful: [in-page search terms](https://docs.google.com/spreadsheets/d/1Kt9nilIxycAp6BnQGjQPLhJSy4uKujOHk63gnWjdb4w/pubhtml) and [Google Trends](http://www.google.com/trends/explore#q=car%20accident%2C%20collision&cmpt=q&tz=Etc%2FGMT%2B4))
+* include terms that people scan for (helpful to find terms: [in-page search terms](https://docs.google.com/spreadsheets/d/1Kt9nilIxycAp6BnQGjQPLhJSy4uKujOHk63gnWjdb4w/pubhtml) and [Google Trends word comparison](http://www.google.com/trends/explore#q=car%20accident%2C%20collision&cmpt=q&tz=Etc%2FGMT%2B4))
 
 ### Measure the results
 

@@ -61,7 +61,7 @@ In order to access a crime report, you will need both:
 Call to action
 
 ```
-Link or button: Access your crime report
+[Link or button] Access your crime report
 ```
 
 Sub-section heading [if needed]
@@ -74,6 +74,7 @@ Sub-section body [if needed]
 
 #### Look up a crime report online
 
+```
 Crime reports are available online to victims. They may be used to file insurance claims and for other personal uses.
 
 In order to access a crime report, you will need both:
@@ -81,4 +82,5 @@ In order to access a crime report, you will need both:
 * a case number
 * a report date
 
-[Access your crime report](#)
+[Link or button] Access your crime report
+```
